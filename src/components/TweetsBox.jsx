@@ -1,8 +1,9 @@
 import React from 'react';
 
-const TweetsBox = ({body}) => {
+const TweetsBox = ({body, children}) => {
     return (
-        <div className="my-2 filter drop-shadow-md p-2 h-24 w-full border-b border-blue-400 text-white">
+        <div className="my-2 filter drop-shadow-md p-2 w-full border-b border-blue-400 text-white">
+            {children}
             {body}
         </div>
     );

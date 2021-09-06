@@ -4,6 +4,7 @@ import tw, { styled } from 'twin.macro';
 export const PostMessage = styled.textarea`
     height: 150px;
     resize: none;
+    padding: 10px;
 `;
 
 
