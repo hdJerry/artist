@@ -51,7 +51,7 @@ const Album = () => {
 
                                 </div>
 
-                                <p className="font-bold text-sm capitalize">
+                                <p className="font-bold text-sm text-white mt-2 capitalize">
                                     {res.title}
                                 </p>
 

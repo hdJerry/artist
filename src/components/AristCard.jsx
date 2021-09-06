@@ -20,7 +20,7 @@ const AristCard = ({image, album}) => {
 
             </div>
 
-            <p>
+            <p className="text-white mt-2">
                 {album}
             </p>
         </div>
