@@ -27,7 +27,7 @@ const Artists = () => {
         <Wrapper>
             <Container>
 
-                <div className="w-full lg:w-1/2 mx-auto mt-10 overflow-auto h-full">
+                <div className="w-full lg:w-1/2 mx-auto mt-10 overflow-auto h-full text-white">
                     <table className="table-auto border-collapse border border-blue-400 w-full h-full">
                     <thead>
                         <tr>
@@ -48,8 +48,8 @@ const Artists = () => {
                                     <td className="p-2 border border-blue-400">{res.email}</td>
                                     <td className="p-2 border border-blue-400">{res.address.city}</td>
                                     <td className="p-2 border border-blue-400">
-                                        <Link to={'album/'+res.id} className="rounded-md flex justify-center items-center text-xs font-bold px-3 h-5 bg-blue-400 text-white">
-                                            Album
+                                        <Link to={'album/'+res.id} className="rounded-md flex justify-center items-center text-xs font-bold px-1 w-24 h-8 bg-blue-400 text-white">
+                                            View Album
                                         </Link>
                                     </td>
                                 </tr>
